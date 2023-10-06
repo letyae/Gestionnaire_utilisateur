@@ -13,7 +13,7 @@ class User:
    
      # ce decorateur permet de dynamiser la fonction
     @property
-    def __attr__():
+    def __attr__(self):
         return f"{self.first_name} {self.last_name}"
     
   #on peut faire sa aussi
@@ -36,5 +36,5 @@ if __name__=="__main__":
             )
 
         print(user)
-        print("-"*10)
+        print("-"*10,"\n")
 
